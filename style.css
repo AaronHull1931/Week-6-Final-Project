@@ -1,0 +1,53 @@
+body, div, h1, h2, h3, a, html, p, span {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.original {
+    position: sticky;
+    top: 0px;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+
+}
+
+.originalUser {
+    font-size: 15px;
+}
+
+.originalPost {
+    text-align: center;
+    font-size: 35px;
+}
+
+.commentSection {
+    position: sticky;
+    bottom: 0;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+
+    height: 50px;
+    align-content: center;
+}
+
+.userName {
+    font-size: 15px;
+}
+.firstComment {
+    font-size: 35px;
+}
+.comment {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: #ff63cb;
+
+}
+.commentButton {
+    justify-content: end;
+}
